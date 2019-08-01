@@ -55,15 +55,15 @@ typedef struct Record {
 typedef struct M {
     int block1;
     int block2;
-	int subitems;
-	int x;
+    int subitems;
+    int x;
 } mergeparam;
 
 //defines parameters for run 0, the sort phase
 
 typedef struct S {
-	int blockindex;
-	int itm;
+    int blockindex;
+    int itm;
 } sortparam;
 
 //defines the functions: Merge Driver Function, Sorting thread, Merging thread, Comparison function, and Graph function
